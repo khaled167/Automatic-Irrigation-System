@@ -142,13 +142,5 @@ public class PolynomialRegression implements Comparable<PolynomialRegression> {
 		return 0;
 	}
 
-	public static void main(String args[]) {
-		double[] x = { 40, 20, 10, 80, 200, 130 };
-		double[] y = { 80, 40, 20, 160, 400, 260 };
-		PolynomialRegression regression = new PolynomialRegression(x, y, 3);
 
-		System.out.println(regression);
-		System.out.println(regression.predict(520));
-
-	}
 }
