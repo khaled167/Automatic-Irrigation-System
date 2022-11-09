@@ -8,7 +8,7 @@ so the business logic that I understand is...
 1- We have a sensor device that is responsible for irrigating the land plots
 2- This sensor can NOT work simultaneously, and it gets busy when irrigating at most one land plot
 3- Each land plot has its own time slot
-4- What I understand from "time slot" is, it is just a schedule in which each day of the week has intervals in which the device should being irritating the land plot
+4- What I understand from "time slot" is, it is just a schedule in which each day of the week has intervals in which the device should being irrigating the land plot
 with the given amount of water.
 5- "Predict the (slots time / amount of water) based on the given type of agricultural crop / cultivated area", this bonus task statement was VERY AMBIGUOUS to me,
 I do NOT really know how to logically predict the time slots/amount of water based on the give agricultural crop / cultivated area.
